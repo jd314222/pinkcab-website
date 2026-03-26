@@ -17,7 +17,7 @@ export default function Home() {
 
         {/* Title */}
         <h1 className="text-4xl font-extrabold tracking-tight text-slate-900 sm:text-5xl">
-          Pink Cab
+          Pink Cab OU
         </h1>
         
         <p className="mt-4 text-xl font-medium text-pink-accent italic">
