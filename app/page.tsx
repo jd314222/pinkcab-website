@@ -35,9 +35,14 @@ export default function Home() {
           <button className="btn-pink flex h-16 items-center justify-center rounded-2xl px-10 text-xl font-bold shadow-lg shadow-pink-100">
             App Coming Soon!
           </button>
-          <button className="btn-white flex h-16 items-center justify-center rounded-2xl px-10 text-xl font-bold shadow-lg shadow-pink-100">
+          <a
+            className="btn-white flex h-16 items-center justify-center rounded-2xl px-10 text-xl font-bold shadow-lg shadow-pink-100"
+            href="https://groupme.com/join_group/97762553/iBlzScy9"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Contact Us Here 
-          </button>
+          </a>
         </div>
 
         <div className="pt-8 flex flex-col items-center gap-2 text-sm text-slate-500">
@@ -54,6 +59,12 @@ export default function Home() {
               className="underline hover:text-slate-700"
             >
               Terms of Service
+            </a>
+            <a
+              href="/deletion"
+              className="underline hover:text-slate-700"
+            >
+              Account Deletion
             </a>
           </div>
         </div>
