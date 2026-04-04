@@ -40,6 +40,24 @@ export default function Home() {
           </button>
         </div>
 
+        <div className="pt-8 flex flex-col items-center gap-2 text-sm text-slate-500">
+          <p className="font-semibold text-slate-600">Legal</p>
+          <div className="flex items-center gap-4">
+            <a
+              href="/docs/privacy-policy-02-04-2026.html"
+              className="underline hover:text-slate-700"
+            >
+              Privacy Policy
+            </a>
+            <a
+              href="/docs/terms-of-service-02-04-2026.html"
+              className="underline hover:text-slate-700"
+            >
+              Terms of Service
+            </a>
+          </div>
+        </div>
+
         {/* Footer */}
         <footer className="pt-20 flex flex-col items-center gap-4 text-sm text-slate-400">
           <p>&copy; {new Date().getFullYear()} PinkCab</p>
